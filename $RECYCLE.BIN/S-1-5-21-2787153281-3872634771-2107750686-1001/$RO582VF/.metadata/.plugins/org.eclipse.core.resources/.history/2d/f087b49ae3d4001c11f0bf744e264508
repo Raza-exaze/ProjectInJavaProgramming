@@ -1,0 +1,12 @@
+import com.java.hdfc.*;
+
+public class StudentClass 
+{
+	public static void main(String[] args) {
+		Student s=new Student(12,"Hateem");
+		
+		System.out.println(s);
+		
+	}
+
+}

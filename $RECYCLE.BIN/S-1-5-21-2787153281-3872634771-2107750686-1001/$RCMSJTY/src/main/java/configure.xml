@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean id="name1" class="exazeit.project.SimpleSpring.JavaBean">
+   <property name="first_name" value="Mohammed"/>
+   <property name="last_name" value="Omer"/>
+   </bean>
+   <bean id="name2" class="exazeit.project.SimpleSpring.JavaBean">
+   <property name="first_name" value="Mohammed">
+   </property>
+   <property name="last_name" value="Hateem">
+   </property>
+  
+   </bean>
+   <bean id="name3" class="exazeit.project.SimpleSpring.JavaBean">
+   <property name="first_name" value="Imran"></property>
+   <property name="last_name" value="Khan"></property>
+   </bean>
+</beans>

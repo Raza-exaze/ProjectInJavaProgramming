@@ -1,0 +1,14 @@
+package com.example.LamdaFunction;
+
+interface LambdaExc
+{
+	public void check();
+}
+public class LambdaFunction 
+{
+    public static void main( String[] args )
+    {
+    	LambdaExc lam=()->System.out.print("Hello");
+    	lam.check();
+    	}
+}
